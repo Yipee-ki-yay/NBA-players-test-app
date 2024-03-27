@@ -10,7 +10,7 @@ const Player = ({
   isFavPlayer: boolean,
 }) => {
   return (
-    <li className="p-3 relative w-1/2">
+    <li className="p-3 relative w-full md:w-1/2">
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <div className="absolute top-5 right-5">
           <button onClick={() => onSetFavoritePlayers(player.id)}>
